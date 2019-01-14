@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+body{
+	background-color: threedface;
+}
+#top {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#top:after {
+	content:'';
+	display:block;
+  	clear:both;
+	
+}
+
+#uploadForm{
+	float: left;
+	width:60%;
+	text-align: right;
+}
+
+#filterForm{
+	float: left;
+	width:40%;
+	text-align: left;
+}
+
+#komunikaty{
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#lewy_napis{
+	width: 50%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prawy_napis{
+	width: 50%;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#lewy_obraz{
+	width: 50%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#prawy_obraz{
+	width: 50%;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
